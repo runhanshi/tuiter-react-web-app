@@ -1,0 +1,148 @@
+body {
+    background-color:black;
+    color: white;
+}
+
+header {
+    margin-left: 16px;
+    margin-top: 12px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: rgb(47,51,54);
+    display: grid;
+}
+header .wd-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+header .wd-user{
+    color: rgb(110,118,125);
+    font-size: 13px;
+}
+header .wd-user-content {
+    float: left;
+    margin-left: 16px;
+}
+header .wd-three-dots{
+    float: right;
+    color: rgb(29,161,242);
+    padding-right: 10px;
+}
+
+main {
+    margin-left: 16px;
+}
+article {
+    border-style: solid;
+    border-color: rgb(47,51,54);
+    border-width: 1px;
+    padding-top: 12px;
+    display: flex;
+}
+.wd-content {
+    border-left: 12px;
+}
+.wd-avatar {
+    float: left;
+    padding-left: 16px;
+    padding-right: 12px;
+}
+.wd-avatar img{
+    height: 48px;
+    width: 48px;
+    border-radius: 48px;
+}
+
+section {
+    width: 90%;
+    float: right;
+}
+.wd-authorbar {
+    float: left;
+    border-left: 16px;
+    font-size: 15px;
+    color: rgb(110,118,125);
+}
+.wd-author {
+    font-weight: bold;
+    color: white;
+    font-size:15px;
+}
+.wd-handle{
+    color: rgb(110,118,125);
+    font-size:15px;
+}
+.wd-three-dots-gray{
+    float: right;
+    color: rgb(110,118,125);
+}
+.wd-main-content {
+    padding-right: 16px;
+    font-size: 15px;
+    width: 506px;
+    clear:both;
+}
+.wd-content-pic {
+    display: grid;
+}
+
+.wd-content-pic img {
+    height: 264px;
+    width: 504px;
+    padding-top: 12px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-color: rgb(47,51,54);
+    border-width: 1px;
+}
+
+.wd-content-field {
+    width: 504px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47,51,54);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 15px;
+}
+.wd-contents-title {
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 12px;
+}
+
+.wd-text{
+    color: rgb(110,118,125);
+    padding-left: 12px;
+    font-size: 15px;
+}
+
+.wd-link {
+    color: rgb(110,118,125);
+    padding-left: 12px;
+}
+.wd-link a{
+    color: rgb(110,118,125);
+}
+
+.wd-icons {
+    padding-top: 12px;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    padding-bottom: 12px;
+}
+
+.wd-icons a {
+    width: 25%;
+    color: rgb(110,118,125);
+    text-decoration: none;
+}
+
+.wd-icons-like a {
+    color: red;
+}
+
+.wd-icons span {
+    padding-right: 12px;
+}

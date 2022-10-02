@@ -1,0 +1,126 @@
+body {
+    background-color:black;
+    color:white;
+    font-size: 16px;
+}
+
+.wd-search {
+    clear:both;
+}
+.wd-searchtuiter {
+    float: left;
+    border-radius: 25px;
+    height: 30px;
+    margin-left: 32px;
+    width: 70%;
+    color: white;
+    background-color: darkgray;
+    margin-top: 7px;
+    border-left-color: rgb(47, 51, 54);
+    border-left-style: solid;
+    border-right-color: rgb(47, 51, 54);
+    border-right-style: solid;
+}
+
+.wd-explore-settings {
+    float: right;
+    margin-right: 12px;
+    font-size: 30px;
+}
+
+nav {
+    border-top: 4em;
+    padding-bottom: 1.25em;
+    border-style: solid;
+    border-color: black;
+    margin-left: 16px;
+    border-bottom-color: rgb(47, 51, 54);
+    border-left-color: rgb(47, 51, 54);
+    border-right-color: rgb(47, 51, 54);
+}
+nav a {
+    color: rgb(110,118,125);
+    font-size: 15px;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: rgb(29,161,242);
+    border-bottom: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(29,161,242);
+}
+
+.wd-content {
+    float:left;
+    padding-top: 16px;
+    margin-left: 16px;
+}
+.wd-topic {
+    color:rgb(110,118,125);
+    font-size: 13px;
+}
+.wd-title {
+    font-weight: bold;
+    font-size: 13px;
+}
+.wd-title a {
+    text-decoration: none;
+    color: white;
+}
+.wd-pic-field {
+    float: right;
+}
+.wd-three-dots{
+    float: right;
+    padding-right: 12px;
+    color: rgb(110, 118, 125);
+}
+.wd-three-dots-white {
+    float: right;
+    color: white;
+    padding-right: 12px;
+}
+.wd-circle-icon{
+    font-size:16px;
+}
+.wd-pic img {
+    height: 100px;
+    width: 100px;
+    float: right;
+    margin-right:16px;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+section {
+    border-left-color: rgb(47, 51, 54);
+    border-left-style: solid;
+    border-right-color: rgb(47, 51, 54);
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(47, 51, 54);
+    margin-left: 16px;
+    height: 120px;
+}
+
+.wd-author-icon img{
+    height: 16px;
+    width: 16px;
+    border-radius: 15px;
+    margin-right: 16px;
+}
+
+.wd-author {
+    font-weight: bold;
+    font-size: 13px;
+    color:white;
+}
+
+.wd-date {
+    font-weight: bold;
+    font-size: 13px;
+    color:rgb(110,118,125);
+}

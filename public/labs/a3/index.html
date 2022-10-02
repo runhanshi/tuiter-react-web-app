@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<!--    <style>-->
+<!--        p {-->
+<!--            background-color: blue;-->
+<!--            color: white;-->
+<!--        }-->
+<!--    </style>-->
+    <link href="index.css"
+          rel="stylesheet"/>
+</head>
+<body>
+<h1>Cascading Style Sheet (CSS)</h1>
+<h2>Style attribute and tag</h2>
+<h3>Style attribute</h3>
+<p style="background-color: blue; color: white">
+    Style attribute allows configuring look
+    and feel right on the element. Although it's
+    very convenient it is considered bad practice
+    and you should avoid using the style attribute
+</p>
+
+<h3>Style tag</h3>
+<p>
+    A slightly better way to configure look and feel
+    is to declare CSS rules in the STYLE tag in the
+    header and then refer to the tag by their name,
+    ID, or class This paragraph's style is set by a
+    rule referring to the P tags
+</p>
+
+<h3>Link tag</h3>
+<p>
+    The best way to apply CSS rules is to declare
+    them in a separate CSS file and load it with
+    the LINK tag. Always use this method.
+</p>
+
+<h3>ID selectors</h3>
+<p id="id-selector-1">
+    Instead of changing the look and
+    feel of all the elements of the
+    same name, e.g., P, we can refer
+    to a specific element by its ID
+</p>
+<p id="id-selector-2">
+    Here's another paragraph using a
+    different ID and a different look
+    and feel
+</p>
+
+<h3>Class selectors</h3>
+<p class="class-selector">
+    Instead of using IDs to refer
+    to elements, you can use an
+    element's CLASS attribute</p>
+<h4 class="class-selector">
+    This heading has same style as
+    paragraph above</h4>
+
+<div class="selector-1">
+    <h3>Document structure selectors</h3>
+    <div class="selector-2">
+        Selectors can be combined to refer elements in
+        particular places in the document
+        <p class="selector-3">
+            This paragraph's red background is referenced as
+            <br/>.selector-2 .selector3<br/>
+            meaning the descendant of some ancestor.
+            <br/>
+            <span class="selector-4">Whereas this span is a
+     direct child of its parent</span>
+            <br/>
+            You can combine these relationships to create
+            specific styles depending on the document
+            structure
+        </p>
+    </div>
+</div>
+
+<h2>Colors</h2>
+<h3 class="fg-color-blue">Foreground color</h3>
+<p class="fg-color-red">
+    The text in this paragraph is red but
+    <span class="fg-color-green">this text is green</span>
+</p>
+
+<h3 class="bg-color-blue fg-color-white">Background color</h3>
+<p class="bg-color-red fg-color-black">
+    This background of this paragraph is red but
+    <span class="bg-color-green fg-color-white"> the background
+  of this text is green and the foreground white</span>
+</p>
+
+<h2>Borders</h2>
+<p class="border-fat border-red border-solid">
+    Solid fat red border</p>
+<p class="border-thin border-blue border-dashed">
+    Dashed thin blue border</p>
+
+<h2>Padding</h2>
+<div class="padded-top-left border-fat
+            border-red border-solid
+            bg-color-yellow">
+    Padded top left
+</div>
+<div class="padded-bottom-right border-fat
+            border-blue border-solid
+            bg-color-yellow">
+    Padded bottom right
+</div>
+<div class="padding-fat border-fat
+            border-yellow border-solid
+            bg-color-blue fg-color-white">
+    Padded all around
+</div>
+
+<h2>Margins</h2>
+<div class="margin-bottom
+            padded-top-left
+            border-fat border-red
+            border-solid
+            bg-color-yellow">
+    Margin bottom</div>
+<div class="margin-right-left
+            padded-bottom-right
+            border-fat border-blue
+            border-solid
+            bg-color-yellow">
+    Margin left right
+</div>
+<div class="margin-all-around
+            padding-fat border-fat
+            border-yellow
+            border-solid
+            bg-color-blue
+            fg-color-white">
+    Margin all around
+</div>
+
+<h3>Rounded corners</h3>
+<p class="rounded-corners-top border-thin border-blue border-solid padding-fat">
+    Rounded corners on the top
+</p>
+<p class="rounded-corners-bottom border-thin border-blue border-solid padding-fat">
+    Rounded corners at the bottom
+</p>
+<p class="rounded-corners-all-around border-thin border-blue border-solid padding-fat">
+    Rounded corners all around
+</p>
+<p class="rounded-corners-inline border-thin border-blue border-solid padding-fat">
+    Different rounded corners
+</p>
+
+<h2>Dimension</h2>
+<div>
+    <div class="dimension-portrait bg-color-yellow">
+        Portrait
+    </div>
+    <div class="dimension-landscape bg-color-blue
+               fg-color-white">
+        Landscape
+    </div>
+    <div class="dimension-square bg-color-red">
+        Square
+    </div>
+</div>
+
+<h2>Position</h2>
+<h3>Relative</h3>
+<div>
+    <div class="bg-color-yellow
+             dimension-portrait">
+        <div class="pos-relative-nudge-down-right">
+            Portrait</div>
+    </div>
+    <div class="pos-relative-nudge-up-right
+             bg-color-blue fg-color-white
+             dimension-landscape">
+        Landscape</div>
+    <div class="bg-color-red dimension-square">
+        Square</div>
+</div>
+
+<h3>Absolute position</h3>
+<div class="pos-relative">
+    <div class="pos-absolute-10-10
+    bg-color-yellow dimension-portrait">
+        Portrait
+    </div>
+    <div class="pos-absolute-50-50
+        bg-color-blue fg-color-white
+        dimension-landscape">
+        Landscape   </div>
+    <div class="pos-absolute-120-20
+        bg-color-red dimension-square">
+        Square      </div>
+</div><br/><br/><br/><br/><br/><br/><br/>
+
+<h3>Fixed position</h3>
+
+Checkout the blue square that says
+"Fixed position" stuck all the way
+on the right and half way down the
+page. It doesn't scroll with the
+rest of the page. Its position is
+"Fixed".
+
+<div class="pos-fixed
+            dimension-square
+            bg-color-blue
+            fg-color-white">
+    Fixed position
+</div>
+
+<h2>Z index</h2>
+<div class="pos-relative">
+    <div class="pos-absolute-10-10
+        bg-color-yellow
+        dimension-portrait">
+        Portrait</div>
+    <div class="zindex-bring-to-front
+        pos-absolute-50-50
+        bg-color-blue fg-color-white
+        dimension-landscape">
+        Landscape</div>
+    <div class="pos-absolute-120-20
+        bg-color-red dimension-square">
+        Square</div>
+</div><br/><br/><br/><br/><br/><br/><br/>
+
+<h2>Float</h2>
+<div>
+    <div class="float-left dimension-portrait bg-color-yellow">
+        Yellow</div>
+    <div class="float-left dimension-portrait bg-color-blue fg-color-white">
+        Blue</div>
+    <div class="float-left dimension-portrait bg-color-red">
+        Red</div>
+    <img class="float-right"      src="https://www.staradvertiser.com/wp-content/uploads/2021/08/web1_Starship-gap2.jpg"/>
+    <div class="float-done"></div>
+</div>
+
+<h2>Grid layout</h2>
+<div class="grid-row">
+    <div class="grid-col-half-page bg-color-yellow">
+        <h3>Left half</h3>
+    </div>
+    <div class="grid-col-half-page bg-color-blue
+              fg-color-white">
+        <h3>Right half</h3>
+    </div>
+</div>
+<div class="grid-row">
+    <div class="grid-col-third-page bg-color-green
+              fg-color-white">
+        <h3>Left third</h3>
+    </div>
+    <div class="grid-col-two-thirds-page bg-color-red
+              fg-color-white">
+        <h3>Right two thirds</h3>
+    </div>
+</div>
+<div class="grid-row">
+    <div class="grid-col-left-sidebar bg-color-yellow">
+        <h3>Side bar</h3>
+        <p>This is the left sidebar</p>
+    </div>
+    <div class="grid-col-main-content bg-color-blue
+              fg-color-white">
+        <h3>Main content</h3>
+        <p>This is the main content. This is the main content.
+            This is the main content. </p>
+    </div>
+    <div class="grid-col-right-sidebar bg-color-green
+              fg-color-white">
+        <h3>Side bar</h3>
+        <p>This is the right sidebar</p>
+    </div>
+</div>
+
+
+
+<h2>Rotations</h2>
+<h3>Rotating a paragraph</h3>
+<p class="rotate-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+<h3>Rotating a list</h3>
+<ul class="rotate-list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+<ol class="rotate-ordered-list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ol>
+
+<h3>Rotating list items</h3>
+<ul class="rotate-list-items">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+
+<h3>Rotating an image</h3>
+<img class="rotate-image" width="400px"
+     src="https://s14085.pcdn.co/wp-content/uploads/2019/10/dowjones_chart_100_years_20200327.png"/>
+<h3>Rotating an image-myself</h3>
+<img class="rotate-image-my" width="400px"
+     src="data:image/jpeg;base64,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"/>
+
+<h3>Rotating a table</h3>
+<br/><br/>
+<table border="1" class="rotate-table">
+    <tr><td>Return rate</td><td>Monthly contributions</td>
+        <td>Balance after 40 years</td></tr>
+    <tr><td>5</td><td>250</td><td>372,141.15</td></tr>
+    <tr><td>5</td><td>500</td><td>744,282.29</td></tr>
+    <tr><td>5</td><td>1000</td><td>1,488,564.58</td></tr>
+    <tr><td>7</td><td>250</td><td>621,379.12</td></tr>
+    <tr><td>7</td><td>500</td><td>1,242,758.23</td></tr>
+    <tr><td>7</td><td>1000</td><td>2,485,516.46</td></tr>
+    <tr><td>10</td><td>250</td><td>1,398,651.85</td></tr>
+    <tr><td>10</td><td>500</td><td>2,797,303.70</td></tr>
+    <tr><td>10</td><td>1000</td><td>5,594,607.40</td></tr>
+    <tr><td>13</td><td>250</td><td>3,251,260.21</td></tr>
+    <tr><td>13</td><td>500</td><td>6,502,520.42</td></tr>
+    <tr><td>13</td><td>1000</td><td>13,005,040.83</td></tr>
+</table>
+
+<h3>Linear gradients</h3>
+<p class="gradients-linear">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+
+<h3>Linear gradients-my</h3>
+<p class="gradients-linear-my">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+
+<h3>Radial gradients</h3>
+<p class="gradients-radial">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+
+<h3>Radial gradients-my</h3>
+<p class="gradients-radial-my">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+
+<h3>Positioning radial gradients</h3>
+<p class="gradients-positioned">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+
+<h3>Positioning radial gradients-my</h3>
+<p class="gradients-positioned-my">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+
+
+<h2>Animations</h2>
+<h3>Keyframe animations</h3>
+<p class="animation-keyframes">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+<h2>Animations-my</h2>
+<h3>Keyframe animations-my</h3>
+<p class="animation-keyframes-my"> Hello, This is my paragraph. In case I dont see you. good morning, good afternoon and goodnight.</p>
+
+<div class="flex-container">
+    <div class="flex-box flex-box-1">Box 1</div>
+    <div class="flex-box flex-box-2">
+        Box 2 Box 2<br/>Box 2 Box 2
+    </div>
+    <div class="flex-box flex-box-3">
+        Box 3 Box 3 Box 3<br/>Box 3 Box 3 Box 3<br/>Box 3 Box 3 Box 3
+    </div>
+</div>
+
+<div class="flex-container-flex">
+    <div class="flex-box flex-box-1">Box 1</div>
+    <div class="flex-box flex-box-2">
+        Box 2 Box 2<br/>Box 2 Box 2
+    </div>
+    <div class="flex-box flex-box-3">
+        Box 3 Box 3 Box 3<br/>Box 3 Box 3 Box 3<br/>Box 3 Box 3 Box 3
+    </div>
+</div>
+
+<div class="flex-container-center">
+    <div class="flex-box flex-box-1">Box 1</div>
+    <div class="flex-box flex-box-2">
+        Box 2 Box 2<br/>Box 2 Box 2
+    </div>
+    <div class="flex-box flex-box-3">
+        Box 3 Box 3 Box 3<br/>Box 3 Box 3 Box 3<br/>Box 3 Box 3 Box 3
+    </div>
+</div>
+
+
+<div class="flex-container-end">
+    <div class="flex-box flex-box-1">Box 1</div>
+    <div class="flex-box flex-box-2">
+        Box 2 Box 2<br/>Box 2 Box 2
+    </div>
+    <div class="flex-box flex-box-3">
+        Box 3 Box 3 Box 3<br/>Box 3 Box 3 Box 3<br/>Box 3 Box 3 Box 3
+    </div>
+</div>
+
+
+<div class="flex-container-space-around">
+    <div class="flex-box flex-box-1">Box 1</div>
+    <div class="flex-box flex-box-2">
+        Box 2 Box 2<br/>Box 2 Box 2
+    </div>
+    <div class="flex-box flex-box-3">
+        Box 3 Box 3 Box 3<br/>Box 3 Box 3 Box 3<br/>Box 3 Box 3 Box 3
+    </div>
+</div>
+
+<div class="flex-container-space-between">
+    <div class="flex-box flex-box-1">Box 1</div>
+    <div class="flex-box flex-box-2">
+        Box 2 Box 2<br/>Box 2 Box 2
+    </div>
+    <div class="flex-box flex-box-3">
+        Box 3 Box 3 Box 3<br/>Box 3 Box 3 Box 3<br/>Box 3 Box 3 Box 3
+    </div>
+</div>
+
+<div class="flex-container-align-start">
+    <div class="flex-box flex-box-1">Box 1</div>
+    <div class="flex-box flex-box-2">
+        Box 2 Box 2<br/>Box 2 Box 2
+    </div>
+    <div class="flex-box flex-box-3">
+        Box 3 Box 3 Box 3<br/>Box 3 Box 3 Box 3<br/>Box 3 Box 3 Box 3
+    </div>
+</div>
+
+<div class="flex-container-align-center">
+    <div class="flex-box flex-box-1">Box 1</div>
+    <div class="flex-box flex-box-2">
+        Box 2 Box 2<br/>Box 2 Box 2
+    </div>
+    <div class="flex-box flex-box-3">
+        Box 3 Box 3 Box 3<br/>Box 3 Box 3 Box 3<br/>Box 3 Box 3 Box 3
+    </div>
+</div>
+
+<div class="flex-container-align-third">
+    <div class="flex-box flex-box-1">Box 1</div>
+    <div class="flex-box flex-box-2">
+        Box 2 Box 2<br/>Box 2 Box 2
+    </div>
+    <div class="flex-box flex-box-3">
+        Box 3 Box 3 Box 3<br/>Box 3 Box 3 Box 3<br/>Box 3 Box 3 Box 3
+    </div>
+</div>
+
+<h2>Media queries</h2>
+<p class="media-query">
+    Rafael Nadal Parera is a Spanish professional tennis player. He is currently ranked world No. 3 in singles by the Association of Tennis Professionals (ATP).
+</p>
+
+<div class="media-exercise">
+    <h2 class="media-heading">Media exercise-my</h2>
+    <p class="media-para"> Novak Djokovic is a Serbian professional tennis player. He is currently ranked world No. 7 in singles by the Association of Tennis Professionals (ATP).</p>
+</div>
+
+</body>
+
+
+</html>
