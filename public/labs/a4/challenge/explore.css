@@ -1,0 +1,35 @@
+.wd-rounded-corners{
+    border-radius:45px;
+    height:45px;
+}
+
+.wd-magnifying-glass {
+    left: 15px;
+    bottom: 10px;
+}
+
+.wd-nav a {
+    color: gray;
+}
+
+.wd-nav a:hover {
+    color: white;
+    border-bottom: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(29,161,242);
+}
+
+.wd-author{
+    color:blue;
+    white-space: nowrap;
+}
+
+.wd-border-radius{
+    border-top-right-radius: 15px !important;
+    border-top-left-radius: 15px !important;
+}
+
+.wd-showmore-border-radius{
+    border-bottom-right-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+}
