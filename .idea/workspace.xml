@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52f8385e-7899-4738-b00d-91ecc506ba4c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/public/tuiter/explore/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tuiter/explore/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/labs/a4/challenge/explore.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/labs/a4/challenge/explore.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +81,8 @@
       <workItem from="1665163036823" duration="21711000" />
       <workItem from="1665346081655" duration="2586000" />
       <workItem from="1665366599037" duration="863000" />
-      <workItem from="1665448442536" duration="487000" />
+      <workItem from="1665448442536" duration="698000" />
+      <workItem from="1665456085838" duration="161000" />
     </task>
     <servers />
   </component>
