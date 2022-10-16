@@ -97,11 +97,13 @@ console.log(threePlusOne);
 console.log('Arrays')
 let numberArray1 = [1, 2, 3, 4, 5];
 console.log('numberArray1');
+console.log(numberArray1);
 for (let i = 0; i < numberArray1.length; i++) {
     console.log(numberArray1[i]);
 }
 let stringArray1 = ['string1', 'string2'];
 console.log('stringArray1');
+console.log(stringArray1);
 for (let i = 0; i < stringArray1.length; i++) {
     console.log(stringArray1[i]);
 }
@@ -113,6 +115,7 @@ let variableArray1 = [
     stringArray1
 ];
 console.log('variableArray1');
+console.log(variableArray1);
 for (let i = 0; i < variableArray1.length; i++) {
     console.log(variableArray1[i]);
 }
