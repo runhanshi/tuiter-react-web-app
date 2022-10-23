@@ -36,7 +36,7 @@ const PostItem = (
                 </div>
                 <p className="small">{post.message}</p>
                 <div className="border border-light rounded-bottom rounded-top">
-                    <img src={post.image} className="w-100 rounded-top border-bottom border-light" alt="image"></img>
+                    <img src={post.image} className="w-100 rounded-top border-bottom border-light" alt="post-image"></img>
                     <div className="">
                         <h5 className="pt-2 small fw-bold">{post.title}</h5>
                         <div className="small text-secondary">{post.content}</div>
