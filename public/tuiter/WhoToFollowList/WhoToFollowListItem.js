@@ -1,6 +1,6 @@
 const WhoToFollowListItem = (who) => {
     return(`
-    <li  class="list-group-item">
+      <li  class="list-group-item">
    <div class ="row">
     <div class="col-2">
        <img src=${who.avatarIcon}  class="wd-rounded-corners">
