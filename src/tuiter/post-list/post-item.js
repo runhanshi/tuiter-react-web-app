@@ -22,7 +22,7 @@ const PostItem = (
     return (
         <article className="row border border-light p-2 rounded-top">
             <div className="col-1  wd-author-avatar img-fluid">
-                <img src={post.avatar} className="rounded-circle"></img>
+                <img src={post.avatar} className="rounded-circle"  alt="avatar"></img>
             </div>
             <section className="col-11 ps-4">
                 <div className="row position-relative">
@@ -36,7 +36,7 @@ const PostItem = (
                 </div>
                 <p className="small">{post.message}</p>
                 <div className="border border-light rounded-bottom rounded-top">
-                    <img src={post.image} className="w-100 rounded-top border-bottom border-light"></img>
+                    <img src={post.image} className="w-100 rounded-top border-bottom border-light" alt="image"></img>
                     <div className="">
                         <h5 className="pt-2 small fw-bold">{post.title}</h5>
                         <div className="small text-secondary">{post.content}</div>
@@ -45,24 +45,24 @@ const PostItem = (
                 </div>
                 <div className="row pt-2 pb-2">
                     <div className="col-3 align-content-center text-secondary">
-                        <a href="#" className="text-decoration-none text-secondary small">
+                        <a href="/tuiter/numComments" className="text-decoration-none text-secondary small">
                             <i className="fa-regular fa-comment pe-2 text-decoration-none text-secondary fa-1x"></i>
                             {post.numComments}
                         </a>
                     </div>
                     <div className="col-3 align-content-center text-secondary">
-                        <a href="#" className="text-decoration-none text-secondary small">
+                        <a href="/tuiter/numRetweets" className="text-decoration-none text-secondary small">
                             <i className="fa-solid fa-retweet pe-2 text-decoration-none text-secondary fa-1x"></i>
                             {post.numRetweets}
                         </a>
                     </div>
                     <div className="col-3  text-decoration-none text-secondary">
-                        <a href="#" className="text-decoration-none text-secondary small">
+                        <a href="/tuiter/numLists" className="text-decoration-none text-secondary small">
                             <i className="fa-solid fa-heart pe-2 text-secondary fa-1x"></i>
                             {post.numLikes}</a>
                     </div>
                     <div className="col-3 text-decoration-none text-secondary">
-                        <a href="#"><i className="fa-solid fa-arrow-up-from-bracket pe-2 text-secondary fa-1x"></i></a>
+                        <a href="/tuiter/num"><i className="fa-solid fa-arrow-up-from-bracket pe-2 text-secondary fa-1x"></i></a>
                     </div>
                 </div>
             </section>

@@ -19,7 +19,7 @@ const ExploreComponent = () => {
                     </div>
                     <div className="col-2 d-flex justify-content-end pe-2">
                         <div className="text-primary fs-5 pt-1">
-                            <a href="#" className="text-decoration-none">
+                            <a href="/tuiter/search" className="text-decoration-none">
                                 <i className="fa-solid fa-gear text-blue"></i></a>
                         </div>
                     </div>
@@ -38,7 +38,7 @@ const ExploreComponent = () => {
                 </ul>
             </div>
             <div className="position-relative mb-2">
-                <img src="/images/spaceX.jpg" className="w-100"/>
+                <img src="/images/spaceX.jpg" className="w-100"  alt="spacex starship"/>
                 <div className="position-absolute bottom-0 start-0 ps-2 pb-2 text-white w-100 pe-5">
                     <div className="text-white fw-bolder fs-3 w-100">SpaceX's Starship</div>
                 </div>
