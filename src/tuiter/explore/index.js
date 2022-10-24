@@ -7,7 +7,7 @@ const ExploreComponent = () => {
     return(
         <>
             <div className="row">
-        <div className="col-10 col-lg-7 col-xl-6">
+        <div className="col-10 col-lg-8 col-xl-8">
             <div className="col">
                 <div className="row">
                     <div className="col-10">

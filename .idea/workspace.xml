@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52f8385e-7899-4738-b00d-91ecc506ba4c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/a6/hello-world.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/a6/hello-world.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/explore/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/explore/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/navigation-sidebar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/navigation-sidebar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/post-list/post-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/post-list/post-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +112,7 @@
       <workItem from="1666386588028" duration="11942000" />
       <workItem from="1666477134666" duration="935000" />
       <workItem from="1666556831775" duration="1949000" />
+      <workItem from="1666575635427" duration="537000" />
     </task>
     <servers />
   </component>
