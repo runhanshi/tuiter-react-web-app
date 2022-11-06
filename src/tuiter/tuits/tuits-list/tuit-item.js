@@ -31,7 +31,7 @@ const TuitItem = (
         <li className="list-group-item">
             <article className="row">
                 <div className="col-1 wd-avatar img-fluid">
-                    <img src={tuit.image} alt="tuit-picture" className="rounded-circle"></img>
+                    <img src={tuit.image} alt="tuit-show" className="rounded-circle"></img>
                 </div>
                 <section className="col-11 ps-4">
                     <div className="row position-relative">

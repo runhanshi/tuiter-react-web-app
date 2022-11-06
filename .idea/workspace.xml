@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52f8385e-7899-4738-b00d-91ecc506ba4c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/edit-profile/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/edit-profile/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/home/whats-happening.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/home/whats-happening.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/post-summary-list/post-summary-list-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/post-summary-list/post-summary-list-item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/reducers/tuits-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/reducers/tuits-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tuiter/tuits/tuits-list/tuit-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/tuits/tuits-list/tuit-item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/tuits/tuits-list/tuit-stats.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/tuits/tuits-list/tuit-stats.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +117,7 @@
       <workItem from="1666556831775" duration="1949000" />
       <workItem from="1666575635427" duration="537000" />
       <workItem from="1667590024600" duration="11701000" />
-      <workItem from="1667771519836" duration="3302000" />
+      <workItem from="1667771519836" duration="3632000" />
     </task>
     <servers />
   </component>
