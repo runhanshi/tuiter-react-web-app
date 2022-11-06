@@ -107,7 +107,7 @@ const EditProfileComponent = () => {
                     <div>
                         <div className="position-relative">
                             <div className="row position-relative d-inline ms-0">
-                                <img src={profile.bannerPicture} className="w-100 px-0 mx-0 border-0"></img>
+                                <img src={profile.bannerPicture} alt="banner-show" className="w-100 px-0 mx-0 border-0"></img>
                                 <div className="col text-center card-img-overlay align-middle">
                                     <button className="rounded-circle bg-secondary m-50 border-0 bg-opacity-75">
                                         <i className="bi bi-camera text-white"></i></button>
@@ -118,7 +118,7 @@ const EditProfileComponent = () => {
                             </div>
                             <div className="row img-wrapper card-img-overlay top-50 h-100 ms-2 mb-4 position-absolute">
                                 <div className="col-2 card-img-overlay mt-5 img-fluid">
-                                    <img src={profile.profilePicture} className="h-50 rounded-circle mx-3"></img>
+                                    <img src={profile.profilePicture} alt="profile-show"className="h-50 rounded-circle mx-3"></img>
                                     <div className="card-img-overlay rounded-circle start-50 pt-2">
                                         <button className="btn rounded-circle bg-secondary border-0 bg-opacity-75 my-4">
                                             <i className="bi bi-camera text-white"></i>
@@ -169,7 +169,7 @@ const EditProfileComponent = () => {
                         </Form>
                         <div>
                             <div className="small">Birth Date &#183;
-                                <a href="#" className="link-primary text-decoration-none">Edit</a></div>
+                                <a href="#/tuiter/dateofbirth" className="link-primary text-decoration-none">Edit</a></div>
                             <input type="date"
                                    value={dateOfBirth}
                                    onChange={(event) => handleDateOfBirthChange(event)}/>

@@ -1,7 +1,5 @@
 import {createSlice} from "@reduxjs/toolkit";
-import {useState} from "react";
 import tuits from '../data/full-tuits.json';
-import {useSelector} from "react-redux";
 
 const currentUser = {
  "userName": "NASA",
