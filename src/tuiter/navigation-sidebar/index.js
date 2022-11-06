@@ -11,22 +11,21 @@ const NavigationSidebar = () => {
         <div className="list-group">
             <Link to="/tuiter" className="list-group-item">Tuiter</Link>
             <Link to="/tuiter/home" className={`list-group-item ${active === 'home'?'active':''}`}>
-                Home</Link>
+                <i className="fa-solid fa-house-chimney pe-2 pt-1 float-start"></i>Home</Link>
             <Link to="/tuiter/explore" className={`list-group-item ${active === 'explore'?'active':''}`}>
-                Explore</Link>
+                <i className="fa-solid fa-hashtag pe-2 pt-1 float-start"></i>Explore</Link>
             <a href="/tuiter/notifications" className={`list-group-item ${active === 'notifications'?'active':''}`}>
-                Notifications</a>
+                <i className="fa-solid fa-bell pe-2 pt-1 float-start"></i>Notifications</a>
             <a href="/tuiter/messages" className={`list-group-item ${active === 'messages'?'active':''}`}>
-                Messages</a>
+                <i className="fa-solid fa-envelope pe-2 pt-1 float-start"></i>Messages</a>
             <a href="/tuiter/bookmarks" className={`list-group-item ${active === 'bookmarks'?'active':''}`}>
-                Bookmarks</a>
+                <i className="fa-solid fa-bookmark pe-2 pt-1 float-start"></i>Bookmarks</a>
             <a href="/tuiter/lists" className={`list-group-item ${active === 'lists'?'active':''}`}>
-                Lists</a>
-            <a href="/tuiter/profile" className={`list-group-item ${active === 'profile'?'active':''}`}>
-                Profile</a>
+                <i className="fa-solid fa-list-ul pe-2 pt-1 float-start"></i>Lists</a>
+            <Link to="/tuiter/profile" className={`list-group-item ${active === 'profile'?'active':''}`}>
+                <i className="fa-solid fa-user pe-2 pt-1 float-start"></i>Profile</Link>
             <a href="/tuiter/more" className={`list-group-item ${active === 'more'?'active':''}`}>
-                More</a>
-            <Link to="/" className="list-group-item">Labs</Link>
+                <i className="fa-solid fa-circle pe-2 pt-1 float-start"></i>More</a>
         </div>
     );
 };

@@ -1,0 +1,43 @@
+import {createSlice} from "@reduxjs/toolkit";
+import {useState} from "react";
+import tuits from '../data/full-tuits.json';
+import {useSelector} from "react-redux";
+
+const currentUser = {
+ "userName": "NASA",
+ "handle": "@nasa",
+ "image": "/images/NASA.png",
+};
+
+const templateTuit = {
+ ...currentUser,
+ "topic": "Space",
+ "time": "2h",
+ "liked": false,
+ "replies": 0,
+ "retuits": 0,
+ "likes": 0,
+}
+
+const tuitsSlice = createSlice({
+    name: 'tuits',
+    initialState: tuits,
+    reducers: {
+        deleteTuit(state, action) {
+            const index = state
+            .findIndex(tuit =>
+               tuit._id === action.payload);
+            state.splice(index, 1);
+       },
+        createTuit(state, action) {
+            state.unshift({
+                ...action.payload,
+                ...templateTuit,
+                _id: (new Date()).getTime(),
+            })
+        }
+    }
+});
+
+export const {deleteTuit, createTuit} = tuitsSlice.actions;
+export default tuitsSlice.reducer;

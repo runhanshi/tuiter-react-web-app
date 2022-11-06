@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52f8385e-7899-4738-b00d-91ecc506ba4c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/labs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/navigation-sidebar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/navigation-sidebar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/post-summary-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/post-summary-list/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/post-summary-list/posts.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/who-to-follow-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/who-to-follow-list/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/who-to-follow-list/who-to-follow-list-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/who-to-follow-list/who-to-follow-list-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/who-to-follow-list/who.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/data/who.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +62,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ShiRu\Desktop\2022\fall\webdev\tuiter-react-web-app\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ShiRu\Desktop\2022\fall\webdev\tuiter-react-web-app\src\tuiter\data" />
     </key>
   </component>
   <component name="RunManager">
@@ -113,6 +129,8 @@
       <workItem from="1666477134666" duration="935000" />
       <workItem from="1666556831775" duration="1949000" />
       <workItem from="1666575635427" duration="537000" />
+      <workItem from="1667590024600" duration="11701000" />
+      <workItem from="1667771519836" duration="2651000" />
     </task>
     <servers />
   </component>
