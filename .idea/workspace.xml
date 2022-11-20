@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52f8385e-7899-4738-b00d-91ecc506ba4c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/home/whats-happening.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/home/whats-happening.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tuiter/reducers/tuits-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/reducers/tuits-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/tuits/tuits-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/tuits/tuits-list/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/tuits/tuits-list/tuit-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/tuits/tuits-list/tuit-item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/tuits/tuits-list/tuit-stats.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/tuits/tuits-list/tuit-stats.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/services/tuits-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/services/tuits-service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +124,7 @@
       <workItem from="1668236013463" duration="2564000" />
       <workItem from="1668819830179" duration="1175000" />
       <workItem from="1668902302214" duration="351000" />
-      <workItem from="1668902670438" duration="6811000" />
+      <workItem from="1668902670438" duration="7114000" />
     </task>
     <servers />
   </component>
