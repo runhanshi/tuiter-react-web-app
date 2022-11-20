@@ -3,6 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="52f8385e-7899-4738-b00d-91ecc506ba4c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/home/whats-happening.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/home/whats-happening.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/reducers/tuits-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/reducers/tuits-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/tuits/tuits-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/tuits/tuits-list/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/tuits/tuits-list/tuit-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/tuits/tuits-list/tuit-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/tuits/tuits-list/tuit-stats.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/tuits/tuits-list/tuit-stats.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,19 +41,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ShiRu/Desktop/2022/fall/webdev/tuiter-react-web-app/src&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/ShiRu/Desktop/2022/fall/webdev/tuiter-node-server-app",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ShiRu\Desktop\2022\fall\webdev\tuiter-react-web-app\src" />
@@ -118,6 +126,12 @@
       <workItem from="1666575635427" duration="537000" />
       <workItem from="1667590024600" duration="11701000" />
       <workItem from="1667771519836" duration="4539000" />
+      <workItem from="1667791893629" duration="1239000" />
+      <workItem from="1668209228279" duration="597000" />
+      <workItem from="1668236013463" duration="2564000" />
+      <workItem from="1668819830179" duration="1175000" />
+      <workItem from="1668902302214" duration="351000" />
+      <workItem from="1668902670438" duration="6811000" />
     </task>
     <servers />
   </component>
@@ -145,6 +159,11 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/public/tuiter/PostList/PostItem.js</url>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/tuiter/services/tuits-thunks.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

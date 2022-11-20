@@ -1,4 +1,6 @@
 import React from "react";
+import {updateTuitThunk} from "../../services/tuits-thunks";
+import {useDispatch} from "react-redux";
 
 const TuitStats = (
     {
@@ -18,28 +20,52 @@ const TuitStats = (
         }
     }
 ) => {
+    const dispatch = useDispatch();
     return (
         <div className="row pt-2 pb-2">
-            <div className="col-3 align-content-center text-secondary">
+            <div className="col-2 align-content-center text-secondary">
                 <a href="/tuiter/replies" className="text-decoration-none text-secondary small">
                     <i className="fa-regular fa-comment pe-2 text-decoration-none text-secondary fa-1x"></i>
                     {tuit.replies}
                 </a>
             </div>
-            <div className="col-3 align-content-center text-secondary">
+            <div className="col-2 align-content-center text-secondary">
                 <a href="/tuiter/retuits" className="text-decoration-none text-secondary small">
                     <i className="fa-solid fa-retweet pe-2 text-decoration-none text-secondary fa-1x"></i>
                     {tuit.retuits}
                 </a>
             </div>
-            <div className="col-3  text-decoration-none text-secondary">
-                <a href="/tuiter/likes" className="text-decoration-none text-secondary small">
-                    { tuit.liked &&<i className="fa-solid fa-heart pe-2 text-danger text-decoration-none text-secondary fa-1x"></i>}
-                    { !tuit.liked && <i className="fa-regular fa-heart pe-2 text-decoration-none text-secondary fa-1x"></i> }
+            <div className="col-2  text-decoration-none text-secondary">
+                <a href="#" className="text-decoration-none text-secondary small">
+                    { tuit.liked && <i className="fa-solid fa-heart pe-2 text-danger text-decoration-none text-secondary fa-1x"
+                                       onClick={() => dispatch(updateTuitThunk({
+                                           ...tuit,
+                                           liked: false,
+                                           likes: tuit.likes - 1}))}></i>}
+                    { !tuit.liked &&<i className="fa-regular fa-heart pe-2 text-decoration-none text-secondary fa-1x"
+                                       onClick={() => dispatch(updateTuitThunk({
+                        ...tuit,
+                        liked: true,
+                        likes: tuit.likes + 1}))}></i> }
                     {tuit.likes}
                 </a>
             </div>
-            <div className="col-3 text-decoration-none">
+            <div className="col-2  text-decoration-none text-secondary">
+                <a href="#" className="text-decoration-none text-secondary small">
+                    { tuit.disliked && <i className="bi bi-hand-thumbs-down-fill pe-2 text-danger fa-1x"
+                                          onClick={() => dispatch(updateTuitThunk({
+                                              ...tuit,
+                                              disliked: false,
+                                              dislikes: tuit.dislikes - 1}))}/> }
+                    { !tuit.disliked && <i className="bi bi-hand-thumbs-down pe-2 text-secondary fa-1x"
+                                           onClick={() => dispatch(updateTuitThunk({
+                                               ...tuit,
+                                               disliked: true,
+                                               dislikes: tuit.dislikes + 1}))}/> }
+                    {tuit.dislikes}
+                </a>
+            </div>
+            <div className="col-2 text-decoration-none">
                 <a href="/tuiter/arrowup" className="text-secondary">
                     <i class="fa-solid fa-arrow-up-from-bracket pe-2 text-secondary fa-1x"></i></a>
             </div>
